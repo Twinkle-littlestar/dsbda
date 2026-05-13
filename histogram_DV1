@@ -10,7 +10,7 @@ sns.histplot(dataset['Fare'])
 
 sns.histplot(data=dataset,x='Fare',y='Survived')
   
-#Optional not in problem statment
+#Optional 
 sns.distplot(dataset['Fare'])
 
 sns.distplot(dataset['Fare'], kde=False)
